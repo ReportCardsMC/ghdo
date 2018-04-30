@@ -8,6 +8,9 @@ exports.api = function(type, type2) {
       var length = Object.keys(sites).length;
       return length;
     }
+    if (type2 == "names") {
+      return sites;
+    }
   }
   return invalid;
 }
