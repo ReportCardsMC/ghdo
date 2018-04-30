@@ -7,7 +7,7 @@ var sites = {
 exports.api = function(type, type2) {
   var invalid = undefined
   if (type == "sites") {
-    if (type2 == "size") 
+    if (type2 == "size") {
       var length = Object.keys(sites).length;
       return length;
     }
