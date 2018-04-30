@@ -4,7 +4,7 @@
 
 ###### Step 1
 
-Go to sites.js, and add your site like `"sub": "githubpage.github.io"`
+Go to sites.js, and add your site like `"sub": "https://github.com/profile/repo"`
 
 ###### Step 2
 
