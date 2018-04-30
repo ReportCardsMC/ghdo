@@ -1,3 +1,3 @@
 var cnames_a = {
-  "idkkk":"something.github.io/idkkkk"
+  "bar":"foo.github.io/bar"
 }
