@@ -31,7 +31,7 @@ app.get('/sitesize', function(req, res) {
 })
 
 app.get('/sites', function(request, response) {
-  response.render(__dirname + '/sites.json');
+  res.send('{"sites": ' + api.api("sites", "names") + '}')
 });
 
 // listen for requests :)
