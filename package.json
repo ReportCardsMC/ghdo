@@ -10,7 +10,8 @@
     "start": "node app.js"
   },
   "dependencies": {
-    "express": "^4.16.3"
+    "express": "^4.16.3",
+    "ejs": "^2.5.9"
   },
   "engines": {
     "node": "8.x"
