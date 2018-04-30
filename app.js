@@ -3,7 +3,7 @@
 
 // init project
 var express = require('express');
-var API = require('./sites.js')
+var API = require('/sites.js')
 var app = express();
 
 // we've started you off with Express, 
