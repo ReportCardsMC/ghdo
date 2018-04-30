@@ -16,6 +16,10 @@ app.get('/', function (request, response) {
   response.render(__dirname + '/views/index.ejs');
 });
 
+app.get('/sites', function(request, response) {
+  response.render(__dirname + '/sites.json');
+});
+
 // listen for requests :)
 var listener = app.listen(process.env.PORT, function () {
   console.log('Your app is listening on port ' + listener.address().port);
