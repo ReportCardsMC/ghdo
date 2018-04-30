@@ -10,12 +10,9 @@ exports.api = function(type, type2) {
     if (type2 == "size") 
       var length = Object.keys(sites).length;
       return length;
-    } else {
-      return invalid;
     }
-  } else {
-    return invalid;
   }
+  return invalid;
 }
 
 // Blocked Sub-Domains:
