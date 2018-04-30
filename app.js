@@ -21,6 +21,10 @@ app.get('/domains', function (request, response) {
   response.render(__dirname + '/views/domains.ejs');
 });
 
+app.get('/discord', function(req, res) {
+  res.redirect('https://discord.gg/gY7xEAY');
+})
+
 app.get('/sites', function(request, response) {
   response.render(__dirname + '/sites.json');
 });
