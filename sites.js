@@ -9,7 +9,7 @@ exports.api = function(type, type2) {
       return length;
     }
     if (type2 == "names") {
-      return sites;
+      return JSON.stringify(sites);
     }
   }
   return invalid;
