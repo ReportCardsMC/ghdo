@@ -5,7 +5,7 @@
   "name": "ghdo",
   "version": "0.0.1",
   "description": "Official site for github domains.",
-  "main": "server.js",
+  "main": "app.js",
   "scripts": {
     "start": "node app.js"
   },
