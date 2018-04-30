@@ -3,6 +3,7 @@
 
 // init project
 var express = require('express');
+var API = require('./sites.js')
 var app = express();
 
 // we've started you off with Express, 
@@ -23,6 +24,10 @@ app.get('/domains', function (request, response) {
 
 app.get('/discord', function(req, res) {
   res.redirect('https://discord.gg/gY7xEAY');
+})
+
+app.get('/sitesize', function(req, res) {
+  res.send('{"sitecount": ' + API.api("sites", "size") + '}')
 })
 
 app.get('/sites', function(request, response) {
