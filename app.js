@@ -30,7 +30,7 @@ app.get('/sitesize', function(req, res) {
   res.send('{"sitecount": ' + api.api("sites", "size") + '}')
 })
 
-app.get('/sites', function(request, response) {
+app.get('/sites', function(request, res) {
   res.send('{"sites": ' + api.api("sites", "names") + '}')
 });
 
