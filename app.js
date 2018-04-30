@@ -3,7 +3,7 @@
 
 // init project
 var express = require('express');
-var API = require('/sites.js')
+var api = require('./sites.js')
 var app = express();
 
 // we've started you off with Express, 
@@ -27,7 +27,7 @@ app.get('/discord', function(req, res) {
 })
 
 app.get('/sitesize', function(req, res) {
-  res.send('{"sitecount": ' + API.api("sites", "size") + '}')
+  res.send('{"sitecount": ' + api.api("sites", "size") + '}')
 })
 
 app.get('/sites', function(request, response) {
