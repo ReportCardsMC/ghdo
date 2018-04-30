@@ -17,7 +17,7 @@ app.get('/', function (request, response) {
 });
 
 // http://expressjs.com/en/starter/basic-routing.html
-app.get('/domain', function (request, response) {
+app.get('/domains', function (request, response) {
   response.render(__dirname + '/views/domains.ejs');
 });
 
