@@ -1,5 +1,5 @@
 var sites = {
-  "rileydatlord": "https://github.com/RileyDatLord/RileyDatLord.github.io"
+  "rileydatlord": "RileyDatLord/RileyDatLord.github.io"
 }
 // Blocked Sub-Domains:
 // Already used subdomains.
