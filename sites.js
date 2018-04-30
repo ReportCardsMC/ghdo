@@ -1,6 +1,6 @@
 var sites = {
   "rileydatlord": "RileyDatLord/RileyDatLord.github.io",
-  "subdomain":"user/repo"
+  "raz": "Razod/Ravioliweb"
 }
 // Blocked Sub-Domains:
 // Already used subdomains.
