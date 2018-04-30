@@ -1,21 +1,23 @@
+
+var sites = {
+  "rileydatlord": "RileyDatLord/RileyDatLord.github.io",
+  "raz": "Razod/ravioliweb"
+}
+
 exports.api = function(type, type2) {
-  var invalid2 = "Invalid Type2"
-  var invalid = "Invalid Type"
+  var invalid = undefined
   if (type == "sites") {
-    if (type2 == "size") {
-      return sites.size;
+    if (type2 == "size") 
+      var length = Object.keys(sites).length;
+      return length;
     } else {
-      return invalid2;
+      return invalid;
     }
   } else {
     return invalid;
   }
 }
 
-var sites = {
-  "rileydatlord": "RileyDatLord/RileyDatLord.github.io",
-  "raz": "Razod/ravioliweb"
-}
 // Blocked Sub-Domains:
 // Already used subdomains.
 // blank subdomain
