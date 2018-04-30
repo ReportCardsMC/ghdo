@@ -1,8 +1,5 @@
 
-var sites = {
-  "rileydatlord": "RileyDatLord/RileyDatLord.github.io",
-  "raz": "Razod/ravioliweb"
-}
+var sites = require('./sites.json')
 
 exports.api = function(type, type2) {
   var invalid = undefined
