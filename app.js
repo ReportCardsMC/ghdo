@@ -31,7 +31,7 @@ app.get('/sitesize', function(req, res) {
 })
 
 app.get('/sites', function(request, res) {
-  res.send('String(api.api("sites", "names")))
+  res.send(String(api.api("sites", "names")))
 });
 
 // listen for requests :)
