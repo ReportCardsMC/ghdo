@@ -1,5 +1,5 @@
 
-var sites = require('https://raw.githubusercontent.com/RileyDatLord/ghdo/master/sites.json')
+var sites = require('./sites.json')
 
 exports.api = function(type, type2) {
   var invalid = undefined
