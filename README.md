@@ -2,6 +2,7 @@
 
 ### Adding your site
 
+Please before adding your site make sure the domain you put is not already in the list.
 
 #### Github Pages:
 
