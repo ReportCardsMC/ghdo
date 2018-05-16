@@ -34,6 +34,11 @@ app.get('/sites', function(request, res) {
   res.send(String(api.api("sites", "names")))
 });
 
+app.get('/randomsite', function (req, res) {
+  var site = api.api("sites", "random");
+  res.send(`{site: "${site}"}`)
+})
+
 // listen for requests :)
 var listener = app.listen(process.env.PORT, function () {
   console.log('Your app is listening on port ' + listener.address().port);
