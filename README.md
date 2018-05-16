@@ -1,5 +1,11 @@
 # Github Domains
 
+### API
+
+We have a small api which yo can get the list of sites, how much sites, or get a random site
+
+[site list](http://www.ghdo.pw/sites) [site count](http://www.ghdo.pw/sitesize) [random site](http://www.ghdo.pw/randomsite)
+
 ### Adding your site
 
 Please before adding your site make sure the domain you put is not already in the list.
