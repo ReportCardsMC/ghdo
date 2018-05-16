@@ -3,7 +3,7 @@ var sites = require('./sites.json')
 
 var randomProperty = function (obj) {
     var keys = Object.keys(obj)
-    return obj[keys[ keys.length * Math.random() << 0]];
+    return "http://" + obj [keys[ keys.length * Math.random() << 0]] + ".ghdo.pw/";
 };
 exports.api = function(type, type2) {
   var invalid = undefined
