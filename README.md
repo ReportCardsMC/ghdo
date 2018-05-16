@@ -8,7 +8,7 @@ Please before adding your site make sure the domain you put is not already in th
 
 ###### Step 1
 
-Go to sites.json, and add your site like `"subdomain": "profile/repo"` **THE SITE MUST BE UNDER YOUR PROFILE OR OWNER OF THE ORGANIZATION TO BE ADDED**
+Go to sites.json, and add your site like `"user/repo": "subdomain"` **THE SITE MUST BE UNDER YOUR PROFILE OR OWNER OF THE ORGANIZATION TO BE ADDED**
 
 ###### Step 2
 
@@ -19,7 +19,7 @@ Once your pull request was accepted, your subdomain will be on the site! `subdom
 
 ###### Step 1
 
-Go to sites.json, and add your site like `"subdomain": "heroku-site.herokuapp.com"` **YOU MUST HAVE EVIDENCE THE SITE IS YOURS**
+Go to sites.json, and add your site like `"heroku-site.herokuapp.com": "subdomain"` **YOU MUST HAVE EVIDENCE THE SITE IS YOURS**
 
 ###### Step 2
 
@@ -30,7 +30,7 @@ Once your pull request was accepted, your subdomain will be on the site! `subdom
 
 ###### Step 1
 
-Go to sites.json, and add your site like `"subdomain": "glitchapp.glitch.me"` **YOU MUST HAVE EVIDENCE THE SITE IS YOURS**
+Go to sites.json, and add your site like `"glitch.glitch.me": "subdomain"` **YOU MUST HAVE EVIDENCE THE SITE IS YOURS**
 
 ###### Step 2
 
