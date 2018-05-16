@@ -36,9 +36,7 @@ app.get('/sites', function(request, res) {
 
 app.get('/random', function (req, res) {
   var site = api.api("sites", "random");
-  var site = JSON.parse(site);
-  var site = site.site;
-  res.send(site);
+  res.redirect(site);
 })
 
 app.get('/randomsite', function (req, res) {
