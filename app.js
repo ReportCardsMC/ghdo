@@ -41,7 +41,7 @@ app.get('/random', function (req, res) {
 
 app.get('/randomsite', function (req, res) {
   var site = api.api("sites", "random");
-  res.send(`{site: "${site}"}`)
+  res.send(`{"site": "${site}"}`)
 })
 
 // listen for requests :)
